@@ -9,15 +9,14 @@ function Profile() {
   }
 
   return (
-    console.log("load...ed", user)
-    && isAuthenticated && (
+    isAuthenticated && (
       <div>
-        <img src={user.picture} alt={user.name} />
+        {/* <img src={user.picture} alt={user.name} />
         <h2>{user.name}</h2>
-        <p>{user.email}</p>
+        <p>{user.email}</p> */}
       </div>
     )
   );
 }
 
-export default Profile
+export default Profile;
