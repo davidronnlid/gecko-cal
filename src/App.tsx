@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <LoginButton />
       <LogoutButton />
-      <div>{Profile()}</div>
+      {Profile()})
     </div>
   );
 }
